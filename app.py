@@ -43,6 +43,10 @@ st.markdown(
     </style>
     """,
     unsafe_allow_html=True
+    /* Sliderラベルと値を白字にする */
+    .stSlider label, .stSlider div[data-baseweb="slider"] span {
+        color: white !important;
+    }
 )
 
 # =========================
