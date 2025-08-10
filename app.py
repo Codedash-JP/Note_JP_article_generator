@@ -17,13 +17,13 @@ st.markdown(
     f"""
     <style>
     .stApp {{
-        background: linear-gradient(180deg, {ACCENT} 0%, #0b0e14 100%);
-        color: #e6edf3;
+        background: linear-gradient(180deg, #ffffff 0%, #f8f9fa 100%);
+        color: #222222;
     }}
     .stTextInput input, .stTextArea textarea {{
-        background-color: #0b1220 !important;
-        color: #e6edf3 !important;
-        border: 1px solid #233554 !important;
+        background-color: #ffffff !important;
+        color: #222222 !important;
+        border: 1px solid #cccccc !important;
     }}
     .stButton>button {{
         background-color: {PRIMARY} !important;
@@ -32,23 +32,22 @@ st.markdown(
         border-radius: 8px;
         padding: 0.6rem 1rem;
     }}
-    /* Sliderのラベルと値を白に */
+    /* Sliderのラベルと値を黒系に */
     .stSlider label, .stSlider div[data-baseweb="slider"] span {{
-        color: white !important;
+        color: #222222 !important;
     }}
     .pill {{
         display:inline-block; padding:.2rem .6rem; border-radius:999px; 
         background:{PRIMARY}; color:white; font-size:.8rem; margin-right:.4rem;
     }}
     .card {{
-        border:1px solid #223; border-radius:12px; padding:1rem; background:#0b1220;
+        border:1px solid #ddd; border-radius:12px; padding:1rem; background:#ffffff;
     }}
-    .muted {{ color:#9aa6b2; }}
+    .muted {{ color:#666666; }}
     </style>
     """,
     unsafe_allow_html=True
 )
-
 # =========================
 # ---- Session State ----
 # =========================
