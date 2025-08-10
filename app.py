@@ -32,6 +32,10 @@ st.markdown(
         border-radius: 8px;
         padding: 0.6rem 1rem;
     }}
+    /* Sliderのラベルと値を白に */
+    .stSlider label, .stSlider div[data-baseweb="slider"] span {{
+        color: white !important;
+    }}
     .pill {{
         display:inline-block; padding:.2rem .6rem; border-radius:999px; 
         background:{PRIMARY}; color:white; font-size:.8rem; margin-right:.4rem;
@@ -40,10 +44,6 @@ st.markdown(
         border:1px solid #223; border-radius:12px; padding:1rem; background:#0b1220;
     }}
     .muted {{ color:#9aa6b2; }}
-    /* Sliderラベルと値を白字にする */
-    .stSlider label, .stSlider div[data-baseweb="slider"] span {
-        color: white !important;
-    }
     </style>
     """,
     unsafe_allow_html=True
