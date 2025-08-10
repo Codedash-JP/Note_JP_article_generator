@@ -40,13 +40,13 @@ st.markdown(
         border:1px solid #223; border-radius:12px; padding:1rem; background:#0b1220;
     }}
     .muted {{ color:#9aa6b2; }}
-    </style>
-    """,
-    unsafe_allow_html=True
     /* Sliderラベルと値を白字にする */
     .stSlider label, .stSlider div[data-baseweb="slider"] span {
         color: white !important;
     }
+    </style>
+    """,
+    unsafe_allow_html=True
 )
 
 # =========================
