@@ -73,7 +73,7 @@ with st.sidebar:
     st.markdown("### ✍️ 書き方の指針 (HOW_TO_WRITE)")
     how_to_write = st.text_area(
         "HOW_TO_WRITE",
-        value="なるべく柔らかい文章で、人に寄り添うような形にしてください。極端な表現は避けなさい。",
+        value="なるべく柔らかい文章で、人に寄り添うような形にしてください。極端な表現は避けなさい。「だ・である」調にしてください。",
         height=120
     )
 
